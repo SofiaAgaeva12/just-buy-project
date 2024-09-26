@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: normal !important;
+}
+
+@font-face {
+    src: url("../src/assets/fonts/roboto/Roboto-Regular.ttf");
+    font-family: Roboto;
+}
+
+@font-face{
+    font-family: RobotoBold;
+    src: url("../src/assets/fonts/roboto/Roboto-Bold.ttf");
+}
+
+.p-orderlist-controls  {
+    display: none !important;
+}
+
+
+*:not(.p-orderlist-list)::-webkit-scrollbar {
+    display: none;
+}
+
+.p-orderlist-list::-webkit-scrollbar {
+    width: 0.47rem;
+}
+
+.p-orderlist-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.p-orderlist-list::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
